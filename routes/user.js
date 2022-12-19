@@ -45,6 +45,7 @@ require('dotenv')
 // });
 
 router.put('/register', async (req, res) => {
+  console.log("hello")
   try {
     const {
       username,
@@ -57,14 +58,20 @@ router.put('/register', async (req, res) => {
         .send('improper username, security question answer, or password');
     }
 
+    console.log("hello2");
+
     const usernameExist = await getUserByName(username);
     if (usernameExist) {
       return res.status(400)
         .send('Username already taken');
     }
 
+    console.log("hello3");
+
     const hashedPassword = await hash(password, 10);
     const hashedSecurityQuestionAnswer = await hash(securityQuestionAnswer, 10);
+
+    console.log("hello4");
 
     return createUser(username, hashedPassword, hashedSecurityQuestionAnswer)
       .then((id) => {
@@ -83,6 +90,7 @@ router.put('/register', async (req, res) => {
       })
       .catch(async (err) => {
         await deleteUserByName(username);
+        console.log(err);
         return res.sendStatus(400);
       });
   } catch (err) {

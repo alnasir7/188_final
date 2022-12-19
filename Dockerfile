@@ -19,5 +19,5 @@ RUN npm run-script build
 
 WORKDIR /
 
-EXPOSE 8080
+EXPOSE 5000
 CMD [ "node", "server.js" ]
