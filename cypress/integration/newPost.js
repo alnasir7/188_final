@@ -1,5 +1,5 @@
 it('login', () => {
-  cy.visit('http://localhost:5000/');
+  cy.visit('http://localhost:5001/');
   cy.get('.sign-up-btn-home').click();
   cy.get('#login-username').type('newuser2');
   cy.get('#login-password').type('newuser2');
