@@ -16,8 +16,9 @@ require('dotenv').config();
 const app = express();
 app.use(express.json({ limit: '15mb' }));
 app.use(cors());
-const dbString = process.env.NODE_ENV === 'test'
-  ? process.env.TEST_DB_CONNECTION_STRING : process.env.DB_CONNECTION_STRING;
+const dbString = process.env.DB_CONNECTION_STRING
+  ? process.env.TEST_DB_CONNECTION_STRING
+  : "mongodb+srv://188_final:188_final@188.rqvnir6.mongodb.net/?retryWrites=true&w=majority"
 const opts = {
   useNewUrlParser: true,
   useUnifiedTopology: true,
