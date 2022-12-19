@@ -1,0 +1,110 @@
+.headerWrapper {
+    position: relative;
+    width: 100%;
+}
+
+.banner {
+    height: 10vh;
+    background-size: 60vh 10vh;
+    text-align: left;
+}
+
+#status-button {
+    position: absolute;
+}
+
+.icon {
+    background: white;
+    border-style: inset;
+    border-width: 0.5px;
+    border-radius: 50%;
+    border-color: black;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: calc(50% - 50px);
+    top: calc(10vh - 75px);
+}
+
+.groupTitle {
+    font-size: 24px;
+    padding-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.count {
+    font-size: 14px;
+    padding-top: 1px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.line {
+    margin: 0 auto;
+    color: black;
+}
+
+.ant-btn.ant-btn-primary.ant-btn-round.ant-btn-sm.request {
+    color: black;
+    background-color: #feaa48;
+    border: black;
+    position: absolute;
+    width: 124px;
+    left: calc(100% - 124px);
+    bottom: 8px;
+}
+
+.ant-btn.ant-btn-primary.ant-btn-round.ant-btn-sm.leave {
+    color: black;
+    background-color: #feaa48;
+    border: black;
+    position: absolute;
+    width: 124px;
+    left: calc(100% - 124px);
+    bottom: 8px;
+}
+
+.ant-btn.ant-btn-primary.ant-btn-round.ant-btn-sm.settings {
+    color: black;
+    background-color: #feaa48;
+    border: black;
+    position: absolute;
+    width: 170px;
+    left: calc(100% - 170px);
+    bottom: 8px;
+}
+
+.ant-btn.ant-btn-primary.ant-btn-round.ant-btn-sm.loading {
+    color: black;
+    background-color: #feaa48;
+    border: black;
+    position: absolute;
+    width: 124px;
+    left: calc(100% - 124px);
+    bottom: 8px;
+}
+
+.ant-btn.ant-btn-primary.ant-btn-round.ant-btn-sm.requested {
+    color: grey;
+    background-color: lightgray;
+    border: black;
+    position: absolute;
+    width: 136px;
+    left: calc(100% - 136px);
+    bottom: 8px;
+}
+
+.ant-btn.ant-btn-primary.ant-btn-round.ant-btn-sm.request:hover {
+    background-color: #f4b56b;
+    color: black;
+}
+
+.ant-btn.ant-btn-primary.ant-btn-round.ant-btn-sm.leave:hover {
+    background-color: #f4b56b;
+    color: black;
+}
+
+.ant-btn.ant-btn-primary.ant-btn-round.ant-btn-sm.settings:hover {
+    background-color: #f4b56b;
+    color: black;
+}

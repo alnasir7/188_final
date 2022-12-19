@@ -1,0 +1,48 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "description": "server for team 22 group-centric-social-network",
+  "main": "index.js",
+  "scripts": {
+    "test-server": "jest routes/* db/controller/* --coverage --runInBand --testEnvironment=node --forceExit",
+    "lint": "eslint --fix \"./**/*.{js,jsx}\"",
+    "server": "nodemon server.js",
+    "client": "cd chitchat && npm start",
+    "start": "node server.js",
+    "build": "npm install && cd chitchat && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cis557/fall-2021-project-group-centric-social-network-team-22.git"
+  },
+  "author": "team-22",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cis557/fall-2021-project-group-centric-social-network-team-22/issues"
+  },
+  "homepage": "https://github.com/cis557/fall-2021-project-group-centric-social-network-team-22#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "concurrently": "^6.4.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.14",
+    "react-s3-uploader": "^5.0.0"
+  },
+  "devDependencies": {
+    "cypress": "^9.2.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.26.1",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "jest": "26.6.0",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.1.6"
+  }
+}

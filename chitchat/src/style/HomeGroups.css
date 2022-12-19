@@ -1,0 +1,81 @@
+.home-groups {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.groups-container {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-containter {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    padding: 35px 50px;
+    background-color: #c4c4c4;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.custom-button {
+    background: #ed8915;
+    padding: 4px 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: 1px solid #ed8915;
+    color: white;
+    border-radius: 15px;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.18s ease-in;
+}
+
+.custom-button:hover {
+    background: transparent;
+    color: #ed8915;
+    border: 1px solid #ed8915;
+}
+
+.custom-fake-button {
+    background: #ed8915;
+    padding: 4px 8px;
+    margin-bottom: 10px;
+    cursor: default;
+    border: 1px solid #ed8915;
+    color: white;
+    border-radius: 15px;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.18s ease-in;
+}
+
+.ant-btn.ant-dropdown-trigger.drop-down-notification-btn {
+    background-color: #ed8915;
+    padding: 4px 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: 1px solid #ed8915;
+    color: white;
+    border-radius: 15px;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+    float: right;
+    width: 180px;
+}
+
+.ant-dropdown-menu-item.drop-down-notification {
+    border-bottom: 1px inset #e5e5e5;
+    cursor: default;
+}
+
+.ant-dropdown-menu-item.drop-down-notification:hover {
+    background: white;
+    cursor: default;
+}

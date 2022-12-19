@@ -1,0 +1,21 @@
+.about-wrapper {
+    background-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 40px;
+    width: 12vw;
+    max-height: 60vh;
+    position: absolute;
+    left: calc(100% - 12vw);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.about-text-wrapper {
+    padding: 20px 20px;
+}
+
+#about-title {
+    font-size: 18px;
+}

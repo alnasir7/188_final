@@ -1,0 +1,56 @@
+.flex-settings-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px auto;
+    padding: 5px 10px;
+
+    font-size: 20px;
+    min-width: 100vw;
+}
+
+.flex-settings-container span {
+    margin-left: 2px;
+    font-size: 2.5rem;
+    font-family: "Raleway", sans-serif;
+}
+
+.flex-settings-profile-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px auto;
+    padding: 5px 10px;
+
+    font-size: 20px;
+    min-width: 150vw;
+}
+
+.flex-settings-profile-container span {
+    min-width: 100vm;
+    margin-left: 2px;
+    font-size: 2.5rem;
+    font-family: "Raleway", sans-serif;
+}
+
+.profile-picture {
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 50px;
+    height: auto;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding-left: 0px;
+    margin: auto;
+
+    padding-top: 50px;
+
+    font-size: 30px;
+
+    font-family: "Raleway", sans-serif;
+}

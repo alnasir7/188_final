@@ -1,0 +1,31 @@
+.custom-nav {
+    width: 100vw;
+    z-index: 2;
+    padding: 0px;
+    background-color: #EC8915;
+    color: white;
+    height: 50px;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.35);
+}
+
+.flex-nav-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 10px 30px;
+
+    font-size: 26px;
+    min-width: 100vw;
+}
+
+.flex-nav-container span {
+    margin-left: 4px;
+    font-size: 2.5rem;
+    font-family: "Raleway", sans-serif;
+}
+
+.spacer {
+    flex: 1;
+    margin-left: 10px;
+}

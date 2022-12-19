@@ -1,0 +1,25 @@
+/* #content {
+  padding-top: 50px;
+} */
+html,
+body {
+    height: 100%;
+}
+
+#root {
+    height: 100%;
+}
+
+.app-container {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#content {
+    padding: 0px;
+}
+
+hr {
+    margin: 12px 0px !important;
+}

@@ -1,0 +1,5 @@
+**/*.test.jsx
+**/*.test.js
+cypress
+node_modules
+chitchat/build

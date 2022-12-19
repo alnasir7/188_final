@@ -1,0 +1,311 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`basic snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-dJjYzT KA-dyC"
+  >
+    <div
+      class="headerWrapper"
+    >
+      <div
+        class="banner"
+        style="background-image: url(/default/defaultBanner.png);"
+      >
+        <img
+          alt="icon"
+          class="icon"
+          src="/default/defaultIcon.png"
+        />
+      </div>
+      <div
+        class="groupTitle"
+      >
+        Sample Group
+      </div>
+      <div
+        class="count"
+      >
+        Public Group • 2 members
+      </div>
+      <hr
+        class="line"
+      />
+    </div>
+    <div
+      class="sc-ieecCq dHhYKT"
+    >
+      <div
+        class="sc-hBUSln bIKzFW"
+      >
+        <div
+          class="sc-jrQzAO jvDNVf"
+        >
+          <div>
+            <div
+              class="sc-kDTinF hbtHtL"
+            >
+              <div
+                class="flex-item"
+              >
+                <div
+                  class="sc-iqseJM uZxXm"
+                >
+                  <span
+                    class="sc-bqiRlB cQUfrn"
+                  >
+                    This is a post
+                  </span>
+                  <span
+                    class="sc-egiyK bKJOCG"
+                  >
+                    bymohamed
+                  </span>
+                </div>
+              </div>
+              <div
+                class="flex-item"
+              >
+                <div>
+                  <div>
+                    <span>
+                      <span
+                        class="sc-hKwDye htAtzj tag is-small"
+                      >
+                        Tech
+                      </span>
+                    </span>
+                    <span>
+                      <span
+                        class="sc-hKwDye htAtzj tag is-small"
+                      >
+                        Finance
+                      </span>
+                    </span>
+                    <span>
+                      <span
+                        class="sc-hKwDye htAtzj tag is-small"
+                      >
+                        Art
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p
+              class="sc-ksdxgE fpVrEj"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mollis felis ligula, a pellentesque eros mattis eu. Nunc eu sem nisi. Pellentesque sit amet aliquam nisl, eu placerat purus. Integer quis semper nisl, ut interdum quam. Morbi posuere turpis ut nulla aliquet posuere. Mauris augue felis, congue a metus vitae, ultrices scelerisque libero. Sed et lectus luctus, tincidunt eros nec, tempor odio. In eget nibh sit amet nibh facilisis tempus. Integer lectus erat, accumsan sit amet eleifend ac, laoreet quis risus. Suspendisse porttitor ultrices lorem in hendrerit. Fusce semper velit sapien, non facilisis felis lacinia quis. Curabitur ex erat, mollis ut maximus eu, laoreet vitae leo. In porttitor tortor sit amet arcu fringilla, nec consequat felis fringilla.
+
+Ut auctor, lorem sit amet malesuada mollis, risus eros efficitur magna, non dignissim massa diam a sem. Pellentesque vel justo sed ipsum varius congue vitae in arcu. Suspendisse vel efficitur velit. Cras tempus metus non nisl feugiat, vel ornare arcu vulputate. Pellentesque placerat sapien urna, nec tincidunt erat euismod et. Nunc ut lacinia nisl. Etiam sed ligula consectetur, rhoncus sapien vitae, varius nunc. Mauris aliquet pulvinar congue. Nunc sodales urna sed semper blandit. Quisque justo justo, posuere id nisl non, faucibus volutpat turpis. Aenean viverra mi eget lectus faucibus, at dapibus nisi maximus. Mauris finibus neque non massa ullamcorper, nec dapibus nunc finibus. Cras et nunc massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In sed ex sed dui malesuada porta.
+
+Aliquam ac mattis nisl. Aliquam semper, urna eget aliquet faucibus, dui neque interdum turpis, eu viverra nibh arcu ut orci. Aliquam fringilla vestibulum augue fringilla euismod. Quisque tristique dignissim pretium. Nam placerat, nunc sed tincidunt ultrices, nisl elit dictum metus, at iaculis odio felis et lorem. Aenean malesuada magna eu diam pellentesque consectetur. Aliquam vel fermentum lacus. In hac habitasse platea dictumst.
+            </p>
+          </div>
+          <hr />
+          <div
+            style="height: 30px;"
+          >
+            <div
+              class="is-pulled-left"
+            >
+              <div>
+                <div
+                  class="is-clickable"
+                  role="button"
+                  style="display: inline-block;"
+                  tabindex="0"
+                >
+                  <div
+                    style="display: flex; justify-content: center;"
+                  >
+                    <img
+                      alt="upvote"
+                      src="/icons/chevron-up.svg"
+                    />
+                    <span
+                      style="margin-left: 5px;"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="is-clickable"
+                  role="button"
+                  style="display: inline-block; margin-left: 20px;"
+                  tabindex="0"
+                >
+                  <div
+                    style="display: flex; justify-content: center;"
+                  >
+                    <img
+                      alt="upvote"
+                      src="/icons/chevron-down.svg"
+                      style="margin: 0px auto;"
+                    />
+                    <span
+                      style="margin-left: 5px;"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="is-pulled-right"
+            />
+          </div>
+          <div>
+            <div
+              class="sc-iCfMLu bLJgcV"
+            >
+              <div
+                class="pfpContainer"
+              >
+                <img
+                  alt="avatar"
+                  class="sc-furwcr bDSHle"
+                  src="/logo192.png"
+                />
+              </div>
+              <div
+                class="sc-pVTFL ocwYM"
+              >
+                <p>
+                  Ut ut imperdiet lectus, tincidunt malesuada libero. Nulla et libero orci. Suspendisse semper id neque eget dignissim. Morbi metus justo, luctus nec velit in, condimentum ornare lorem. Pellentesque ac ipsum elit. Duis pulvinar tincidunt dui in iaculis. Aliquam erat volutpat. Nullam dictum id lacus non luctus. Etiam nisl quam, sagittis sed consequat vitae, luctus a orci.
+                </p>
+              </div>
+            </div>
+            <div
+              class="sc-iCfMLu bLJgcV"
+            >
+              <div
+                class="pfpContainer"
+              >
+                <img
+                  alt="avatar"
+                  class="sc-furwcr bDSHle"
+                  src="/logo192.png"
+                />
+              </div>
+              <div
+                class="sc-pVTFL ocwYM"
+              >
+                <p>
+                  Ut ut imperdiet lectus, tincidunt malesuada libero. Nulla et libero orci. Suspendisse semper id neque eget dignissim. Morbi metus justo, luctus nec velit in, condimentum ornare lorem. Pellentesque ac ipsum elit. Duis pulvinar tincidunt dui in iaculis. Aliquam erat volutpat. Nullam dictum id lacus non luctus. Etiam nisl quam, sagittis sed consequat vitae, luctus a orci.
+                </p>
+              </div>
+            </div>
+            <div
+              class="sc-iCfMLu bLJgcV"
+            >
+              <div
+                class="pfpContainer"
+              >
+                <img
+                  alt="avatar"
+                  class="sc-furwcr bDSHle"
+                  src="/logo192.png"
+                />
+              </div>
+              <div
+                class="sc-pVTFL ocwYM"
+              >
+                <p>
+                  Ut ut imperdiet lectus, tincidunt malesuada libero. Nulla et libero orci. Suspendisse semper id neque eget dignissim. Morbi metus justo, luctus nec velit in, condimentum ornare lorem. Pellentesque ac ipsum elit. Duis pulvinar tincidunt dui in iaculis. Aliquam erat volutpat. Nullam dictum id lacus non luctus. Etiam nisl quam, sagittis sed consequat vitae, luctus a orci.
+                </p>
+              </div>
+            </div>
+            <div
+              class="sc-iCfMLu bLJgcV"
+            >
+              <div
+                class="pfpContainer"
+              >
+                <img
+                  alt="avatar"
+                  class="sc-furwcr bDSHle"
+                  src="/logo192.png"
+                />
+              </div>
+              <div
+                class="sc-pVTFL ocwYM"
+              >
+                <p>
+                  Ut ut imperdiet lectus, tincidunt malesuada libero. Nulla et libero orci. Suspendisse semper id neque eget dignissim. Morbi metus justo, luctus nec velit in, condimentum ornare lorem. Pellentesque ac ipsum elit. Duis pulvinar tincidunt dui in iaculis. Aliquam erat volutpat. Nullam dictum id lacus non luctus. Etiam nisl quam, sagittis sed consequat vitae, luctus a orci.
+                </p>
+              </div>
+            </div>
+            <div
+              class="sc-iCfMLu bLJgcV"
+            >
+              <div
+                class="pfpContainer"
+              >
+                <img
+                  alt="avatar"
+                  class="sc-furwcr bDSHle"
+                  src="/logo192.png"
+                />
+              </div>
+              <div
+                class="sc-pVTFL ocwYM"
+              >
+                <p>
+                  Ut ut imperdiet lectus, tincidunt malesuada libero. Nulla et libero orci. Suspendisse semper id neque eget dignissim. Morbi metus justo, luctus nec velit in, condimentum ornare lorem. Pellentesque ac ipsum elit. Duis pulvinar tincidunt dui in iaculis. Aliquam erat volutpat. Nullam dictum id lacus non luctus. Etiam nisl quam, sagittis sed consequat vitae, luctus a orci.
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div
+            style="margin-left: 35px;"
+          >
+            <div
+              style="display: flex; flex-direction: row;"
+            >
+              <div>
+                <img
+                  class="sc-eCImPb jOemKP"
+                  src="/logo192.png"
+                />
+              </div>
+              <div>
+                <div
+                  class="sc-jRQBWg rasIL"
+                >
+                  <textarea
+                    class="sc-gKclnd eKMyqa"
+                    rows="2"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section
+        class="sc-bdvvtL kOhOov"
+      >
+        <h2
+          class="sc-gsDKAQ dvoIrO"
+        >
+          Related Tags
+        </h2>
+        <ul
+          class="sc-dkPtRN kACXAw"
+        >
+          <h3>
+             Tech 
+          </h3>
+          <h3>
+             Finance 
+          </h3>
+          <h3>
+             Art 
+          </h3>
+        </ul>
+      </section>
+    </div>
+  </div>
+</DocumentFragment>
+`;

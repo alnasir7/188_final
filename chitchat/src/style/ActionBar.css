@@ -1,0 +1,69 @@
+.action-bar {
+    position: relative;
+    margin-bottom: 20px;
+    height: 40px;
+}
+
+.ant-btn.ant-dropdown-trigger.drop-down-btn {
+    background-color: #feaa48;
+    border-color: transparent;
+    width: 180px;
+    float: right;
+}
+
+.ant-btn.ant-dropdown-trigger.drop-down-btn:hover {
+    color: black;
+    background-color: #f4b56b;
+    border-width: 1px;
+    border-color: #f4b56b;
+}
+
+.ant-btn.ant-dropdown-trigger.drop-down-btn:focus {
+    color: black;
+    background-color: #f4b56b;
+    border-width: 1px;
+    border-color: #f4b56b;
+}
+
+.search-bar {
+    border-style: solid;
+    width: 500px;
+    background-color: white;
+    border-width: 1px;
+    border-radius: 15px;
+    position: absolute;
+    left: calc(50% - 250px - 7.5px);
+}
+
+.search-icon {
+    padding-left: 5px;
+}
+
+.search-bar-input {
+    width: calc(100% - 24px);
+    border-style: none;
+    border-radius: 15px;
+    outline: none;
+    position: relative;
+}
+
+.search-bar-input:focus {
+    border-style: none;
+    border-color: transparent;
+}
+
+.ant-btn.ant-btn-primary.add-post-btn {
+    background-color: #feaa48;
+    color: black;
+    border-color: transparent;
+    position: relative;
+    width: 120px;
+    left: calc(100% - 120px - 15px);
+}
+
+.ant-btn.ant-btn-primary.add-post-btn:hover {
+    background-color: #feaa48;
+    color: black;
+    border-color: transparent;
+    background-color: #f4b56b;
+}
