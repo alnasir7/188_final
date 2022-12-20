@@ -50,7 +50,7 @@ jobs:
           context: project
           file: Dockerfile
           push: true
-          tags: ghcr.io/cis188/project/project:${{ github.sha }}
+          tags: ghcr.io/alnasir7/project:${{ github.sha }}
 
   deploy:
     name: Deploy latest version of code
