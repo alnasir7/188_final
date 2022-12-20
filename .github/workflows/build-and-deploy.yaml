@@ -31,7 +31,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      # TODO: build and publish docker images
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v2
       - name: Set up Docker Buildx
@@ -59,7 +58,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      # TODO: deploy to AWS
       - id: synth
         name: Synth cdk8s manifests
         run: |
@@ -75,7 +73,6 @@ jobs:
       - name: get config
         run: |
           aws eks --region us-east-1 update-kubeconfig --name cis188 --role-arn arn:aws:iam::751852120204:role/alnasir7 --alias cis188
-          kubectl apply -f k8s/ -l app.kubernetes.io/component=certificate
 
         # run: |
         #   aws eks --region us-east-1 update-kubeconfig --name cis188 --role-arn arn:aws:iam::751852120204:role/alnasir7 --alias cis188

@@ -24,7 +24,7 @@ spec:
                 secretKeyRef:
                   name: config
                   key: jwt
-            - name: DB_CONNECTION_STRING
+            - name: CONNECTION_STRING
               valueFrom:
                 secretKeyRef:
                   name: config
