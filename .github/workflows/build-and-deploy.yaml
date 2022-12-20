@@ -14,9 +14,9 @@ jobs:
       # Install NPM dependencies, cache them correctly
       # and run all Cypress tests
       - name: setenv
-        run: |
-          export JWT_SECRET=${{ secrets.JWT_SECRET }}
-          export DB_CONNECTION_STRING=${{ secrets.DB_CONNECTION_STRING }}
+        run: export JWT_SECRET=${{ secrets.JWT_SECRET }}
+      - name: set-connection-string
+        run: export DB_CONNECTION_STRING=${{ secrets.DB_CONNECTION_STRING }}
       - name: Cypress run
         uses: cypress-io/github-action@v4.2.2 # use the explicit version number
         with:
