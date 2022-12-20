@@ -44,7 +44,7 @@ jobs:
       - name: Build and push fastapi
         uses: docker/build-push-action@v3
         with:
-          context: project
+          context: .
           file: Dockerfile
           push: true
           tags: ghcr.io/alnasir7/project:${{ github.sha }}
