@@ -14,9 +14,21 @@ spec:
       labels:
         app: project
     spec:
+      dnsPolicy: Default
       containers:
         - name: project
           image: project
+          env:
+            - name: JWT_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: config
+                  key: jwt
+            - name: DB_CONNECTION_STRING
+              valueFrom:
+                secretKeyRef:
+                  name: config
+                  key: atlas
           imagePullPolicy: "Never"
           ports:
             - containerPort: 5001
@@ -31,3 +43,13 @@ spec:
     app: project
   ports:
     - port: 5001
+
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: config
+type: Opaque
+data:
+  jwt: MTg4X2ZpbmFs
+  atlas: bW9uZ29kYitzcnY6Ly8xODhfZmluYWw6MTg4X2ZpbmFsQDE4OC5ycXZuaXI2Lm1vbmdvZGIubmV0Lz9yZXRyeVdyaXRlcz10cnVlJnc9bWFqb3JpdHk=

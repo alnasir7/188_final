@@ -99,6 +99,7 @@ router.put('/register', async (req, res) => {
 });
 
 router.put('/login', async (req, res) => {
+  console.log("1")
   try {
     if (req.cookies.authToken) {
       return res.status(400)
@@ -113,6 +114,7 @@ router.put('/login', async (req, res) => {
         .send('improper username or password');
     }
 
+    console.log("2");
     let user = await getUserByName(username);
     if (!user) {
       return res.status(401)
@@ -122,6 +124,7 @@ router.put('/login', async (req, res) => {
       return res.status(401)
         .send('account locked out');
     }
+    console.log("3");
     return compare(password, user.password, async (err, result) => {
       if (err || !(result)) {
         let update;
@@ -140,12 +143,16 @@ router.put('/login', async (req, res) => {
           .send('invalid username or password');
       }
       if (result) {
-        const token = sign({
-          _id: user._id,
-          username: user.username,
-        }, process.env.JWT_SECRET, {
-          expiresIn: '1d',
-        });
+        const token = sign(
+          {
+            _id: user._id,
+            username: user.username,
+          },
+          process.env.JWT_SECRET,
+          {
+            expiresIn: "1d",
+          }
+        );
         res.cookie('authToken', token, {
           maxAge: 86400000,
           httpOnly: true,
@@ -163,6 +170,7 @@ router.put('/login', async (req, res) => {
       return res.sendStatus(401);
     });
   } catch (err) {
+    console.log(err)
     return res.sendStatus(500);
   }
 });
